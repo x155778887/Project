@@ -151,14 +151,14 @@
   
 
   <script>
-    Mercopacity = 0;
-    Venopacity = 0;
-    Earopacity = 0;
-    Maropacity = 0;
-    Jupopacity = 0;
-    Satopacity = 0;
-    Uraopacity = 0;
-    Nepopacity = 0;
+    mercuryOpacity = 0;
+    venusOpacity = 0;
+    earthOpacity = 0;
+    marsOpacity = 0;
+    jupiterOpacity = 0;
+    saturnOpacity = 0;
+    uranusOpacity = 0;
+    neptuneOpacity = 0;
     
     /**
     $(function() {
@@ -189,7 +189,7 @@
     
     //Mercury
     function myMercuryFunc() {
-      if (Mercopacity == 0){
+      if (mercuryOpacity == 0){
     document.getElementById("myMercury").setAttribute("style","opacity:1; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myVenus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myEarth").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
@@ -199,17 +199,17 @@
     document.getElementById("myUranus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myNeptune").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
   
-        Mercopacity=1;
+        mercuryOpacity=1;
       }
       else {
         document.getElementById("myMercury").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
         
-        Mercopacity=0;
+        mercuryOpacity=0;
       }
     }
     //Venus
         function myVenusFunc() {
-      if (Venopacity == 0){
+      if (venusOpacity == 0){
     document.getElementById("myVenus").setAttribute("style","opacity:1; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myMercury").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myEarth").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
@@ -218,16 +218,16 @@
     document.getElementById("mySaturn").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myUranus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myNeptune").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Venopacity=1;
+        venusOpacity=1;
       }
       else {
         document.getElementById("myVenus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Venopacity=0;
+        venusOpacity=0;
       }
     }
     //Earth
      function myEarthFunc() {
-      if (Earopacity == 0){
+      if (earthOpacity == 0){
     document.getElementById("myEarth").setAttribute("style","opacity:1; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myVenus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myMercury").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
@@ -236,17 +236,17 @@
     document.getElementById("mySaturn").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myUranus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myNeptune").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Earopacity=1;
+        earthOpacity=1;
       }
       else {
         document.getElementById("myEarth").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Earopacity=0;
+        earthOpacity=0;
       }
     }
     
     //Mars
     function myMarsFunc() {
-      if (Maropacity == 0){
+      if (marsOpacity == 0){
     document.getElementById("myMars").setAttribute("style","opacity:1; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myVenus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myMercury").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
@@ -255,17 +255,17 @@
     document.getElementById("mySaturn").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myUranus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myNeptune").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Maropacity=1;
+        marsOpacity=1;
       }
       else {
         document.getElementById("myMars").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Maropacity=0;
+        marsOpacity=0;
       }
     }
     
     //Jupiter
      function myJupiterFunc() {
-      if (Jupopacity == 0){
+      if (jupiterOpacity == 0){
     document.getElementById("myJupiter").setAttribute("style","opacity:1; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myMars").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myVenus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
@@ -274,17 +274,17 @@
     document.getElementById("mySaturn").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myUranus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myNeptune").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Jupopacity=1;
+        jupiterOpacity=1;
       }
       else {
         document.getElementById("myJupiter").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Jupopacity=0;
+        jupiterOpacity=0;
       }
     }
     
     //Saturn
          function mySaturnFunc() {
-      if (Satopacity == 0){
+      if (saturnOpacity == 0){
     document.getElementById("mySaturn").setAttribute("style","opacity:1; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myJupiter").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myMars").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
@@ -293,17 +293,17 @@
     document.getElementById("myEarth").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myUranus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myNeptune").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Satopacity=1;
+        saturnOpacity=1;
       }
       else {
         document.getElementById("mySaturn").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Satopacity=0;
+        saturnOpacity=0;
       }
     }
     
     //Uranus
          function myUranusFunc() {
-      if (Uraopacity == 0){
+      if (uranusOpacity == 0){
     document.getElementById("myUranus").setAttribute("style","opacity:1; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myJupiter").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myMars").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
@@ -312,17 +312,17 @@
     document.getElementById("myEarth").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("mySaturn").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myNeptune").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Uraopacity=1;
+        uranusOpacity=1;
       }
       else {
         document.getElementById("myUranus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Uraopacity=0;
+        uranusOpacity=0;
       }
     }
     
     //Neptune
          function myNeptuneFunc() {
-      if (Nepopacity == 0){
+      if (neptuneOpacity == 0){
     document.getElementById("myNeptune").setAttribute("style","opacity:1; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myUranus").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myJupiter").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
@@ -331,11 +331,11 @@
     document.getElementById("myMercury").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("myEarth").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
     document.getElementById("mySaturn").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Nepopacity=1;
+        neptuneOpacity=1;
       }
       else {
         document.getElementById("myNeptune").setAttribute("style","opacity:0; -moz-opacity:0.5; filter:alpha(opacity=50)");
-        Nepopacity=0;
+        neptuneOpacity=0;
       }
     }
     
