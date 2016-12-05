@@ -16,60 +16,76 @@ body {
     height: 100%;
 }
 .Mercury{
-    opacity: 0;
+    display: none;
+    background:url(../img/dim.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .Venus{
-    opacity: 0;
+    display: none;
+    background:url(../img/dim.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .Earth{
-    opacity: 0;
+    display: none;
+    background:url(../img/dim.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .Mars{
-    opacity: 0;
+    display: none;
+    background:url(../img/dim.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .Jupiter{
-    opacity: 0;
+    display: none;
+    background:url(../img/dim.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .Saturn{
-    opacity: 0;
+    display: none;
+    background:url(../img/dim.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .Uranus{
-    opacity: 0;
+    display: none;
+    background:url(../img/dim.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .Neptune{
-    opacity: 0;
+    display: none;
+    background:url(../img/dim.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .content{
     height: 100%;
