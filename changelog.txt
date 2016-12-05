@@ -1,0 +1,18 @@
+x15801390 05/12/16
+Jovi Chan
+-------------------
+eliminated one extra function by combining them into one
+-
+changed 'explore' button to be able to both open and close the navigation bar
+-
+fixed planet divs not properly closing when opening another
+-
+added missing header and title
+-
+moved all javascript and css into external files
+-
+added container to index page
+-
+formatted everything (proper indentation and removal of unnecessary whitespace)
+-
+added to-do list

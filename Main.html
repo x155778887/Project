@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>forgot ur title m8</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="navBar()">&times;</a>
+            <a onclick=myMercuryFunc() href="#">Mercury</a>
+            <a onclick=myVenusFunc() href="#">Venus</a>
+            <a onclick=myEarthFunc() href="#">Earth</a>
+            <a onclick=myMarsFunc() href="#">Mars</a>
+            <a onclick=myJupiterFunc() href="#">Jupiter</a>
+            <a onclick=mySaturnFunc() href="#">Saturn</a>
+            <a onclick=myUranusFunc() href="#">Uranus</a>
+            <a onclick=myNeptuneFunc() href="#">Neptune</a>
+        </div>
+
+        <div id="main">
+            <h2>Space Information Website</h2>
+            <p>Welcome to space info site</p>
+
+            <span style="font-size:30px;cursor:pointer" onclick="navBar()">&#9776; Explore</span>
+
+            <div id="myMercury" class="Mercury">
+                <img src="img/mercury.jpg" alt="Mercury">
+            </div>
+
+            <div id="myVenus" class="Venus">
+                <img src="img/venus.jpg" alt="Venus">
+            </div>
+
+            <div id="myEarth" class="Earth">
+                <img src="img/earth.jpg" alt="Earth">
+            </div>
+
+            <div id="myMars" class="Mars">
+                <img src="img/mars.jpg" alt="Mars">
+            </div>
+
+            <div id="myJupiter" class="Jupiter">
+                <img src="img/jupiter.jpg" alt="Mars">
+            </div>
+
+            <div id="mySaturn" class="Saturn">
+                <img src="img/saturn.png" alt="Saturn">
+            </div>
+
+            <div id="myUranus" class="Uranus">
+                <img src="img/uranus.jpg" alt="Uranus">
+            </div>
+
+            <div id="myNeptune" class="Neptune">
+                <img src="img/neptune.jpg" alt="Neptune">
+            </div>
+            <div id="todo">
+                <h1>~Things left to do~</h1>
+                <ul>
+                    <li>Add proper title.</li>
+                    <li>reimplement all buttons with jquery instead to use fade in/out and toggling.</li>
+                    <li>Form submission(newsletter signup).</li>
+                    <li>Dim background image when hidden div opened.</li>
+                    <li>Fix buttons clicking on one, clicking on another and then clicking on the first button causes div to disappear. (e.g. click on Mercury, then Venus, and then Mercury again.) </li>
+                    <li>Content for each planet (use videos, proper renders with backgrounds removed, consistent size etc).</li>
+                    <li>Never, ever, ever use inline styling or scripting ever again (it's messy as hell and hard to work on).</li>
+                    <li>Paste all your work through <a href='http://jsbeautifier.org/'>this</a> before submitting it. (Except CSS, it breaks that.)</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
