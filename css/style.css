@@ -15,7 +15,25 @@ body {
     background:url(../img/dim.png);
     height: 100%;
 }
-.Mercury{
+.planet{
+    display: none;
+    background:url(../img/dimmer.png);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/**
+#mercuryContainer{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#myVenus{
     display: none;
     background:url(../img/dim.png);
     height: 100%;
@@ -24,7 +42,7 @@ body {
     top: 0;
     left: 0;
 }
-.Venus{
+#myEarth{
     display: none;
     background:url(../img/dim.png);
     height: 100%;
@@ -33,7 +51,7 @@ body {
     top: 0;
     left: 0;
 }
-.Earth{
+#myMars{
     display: none;
     background:url(../img/dim.png);
     height: 100%;
@@ -42,7 +60,7 @@ body {
     top: 0;
     left: 0;
 }
-.Mars{
+#myJupiter{
     display: none;
     background:url(../img/dim.png);
     height: 100%;
@@ -51,7 +69,7 @@ body {
     top: 0;
     left: 0;
 }
-.Jupiter{
+#mySaturn{
     display: none;
     background:url(../img/dim.png);
     height: 100%;
@@ -60,7 +78,7 @@ body {
     top: 0;
     left: 0;
 }
-.Saturn{
+#myUranus{
     display: none;
     background:url(../img/dim.png);
     height: 100%;
@@ -69,7 +87,7 @@ body {
     top: 0;
     left: 0;
 }
-.Uranus{
+#myNeptune{
     display: none;
     background:url(../img/dim.png);
     height: 100%;
@@ -77,21 +95,20 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-}
-.Neptune{
-    display: none;
-    background:url(../img/dim.png);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
+}**/
 .content{
     height: 100%;
     width: 85%;
     position: fixed;
     left: 45%;
+}
+.planetText{
+    margin:auto;
+    width: 60%;
+}
+.planetImage{
+    margin:auto;
+    width: 60%;
 }
 /* Side Navigator Customization*/
 .sidenav {
