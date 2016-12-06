@@ -15,67 +15,28 @@ body {
     background:url(../img/dim.png);
     height: 100%;
 }
-.Mercury{
-    opacity: 0;
+.planet{
+    display: none;
+    background:url(../img/dimmer.png);
     height: 100%;
-    width: 85%;
+    width: 100%;
     position: fixed;
-    left: 45%;
-}
-.Venus{
-    opacity: 0;
-    height: 100%;
-    width: 85%;
-    position: fixed;
-    left: 45%;
-}
-.Earth{
-    opacity: 0;
-    height: 100%;
-    width: 85%;
-    position: fixed;
-    left: 45%;
-}
-.Mars{
-    opacity: 0;
-    height: 100%;
-    width: 85%;
-    position: fixed;
-    left: 45%;
-}
-.Jupiter{
-    opacity: 0;
-    height: 100%;
-    width: 85%;
-    position: fixed;
-    left: 45%;
-}
-.Saturn{
-    opacity: 0;
-    height: 100%;
-    width: 85%;
-    position: fixed;
-    left: 45%;
-}
-.Uranus{
-    opacity: 0;
-    height: 100%;
-    width: 85%;
-    position: fixed;
-    left: 45%;
-}
-.Neptune{
-    opacity: 0;
-    height: 100%;
-    width: 85%;
-    position: fixed;
-    left: 45%;
+    top: 0;
+    left: 0;
 }
 .content{
     height: 100%;
     width: 85%;
     position: fixed;
     left: 45%;
+}
+.planetText{
+    margin:auto;
+    width: 60%;
+}
+.planetImage{
+    margin:auto;
+    width: 60%;
 }
 /* Side Navigator Customization*/
 .sidenav {
