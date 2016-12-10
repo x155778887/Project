@@ -38,6 +38,23 @@ body {
     margin:auto;
     width: 60%;
 }
+#newsletterForm {
+    margin: auto;
+    width: 80%;
+}
+.formInput{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.formInput:focus {
+    border: 2px solid #555;
+}
 /* Side Navigator Customization*/
 .sidenav {
     height: 100%;
@@ -54,7 +71,7 @@ body {
 .planetButton{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #818181;
     display: block;
     transition: 0.3s;

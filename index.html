@@ -20,6 +20,7 @@
                 <button onclick=fadeClick('#saturnContainer') class='planetButton'>Saturn</button>
                 <button onclick=fadeClick('#uranusContainer') class='planetButton'>Uranus</button>
                 <button onclick=fadeClick('#neptuneContainer') class='planetButton'>Neptune</button>
+                <button onclick=fadeClick('#newsletterContainer') class='planetButton'>Newsletter</button>
             </div>
 
             <div id="main">
@@ -96,6 +97,22 @@
                     </div>
                     <div id='neptuneText' class='planetText'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
+                    </div>
+                </div>
+                
+                <div id="newsletterContainer" class = 'fade planet'>
+                    <div id='newsletterForm'>
+                        <h1>Sign up for our free newsletter here for literally no reason at all.</h1>
+                        <form>
+                            <p>
+                                Name <br/><input type='text' class='formInput'/><br/>
+                                E-mail Address <br/><input type="email" class='formInput'/><br/>
+                                <span id='captchafordummies'>To protect ourselves from bots (but not really because this is all client side), please answer this simple question to complete your sign up.<br/>
+                                Which planet do humans come from?</span><br/>
+                                <input type='text' id="captchaInput" class='formInput'/><br/>
+                                <input type='button' class='formInput' onclick=weed() value="Sign Up"/><br/>
+                            </p>
+                        </form>
                     </div>
                 </div>
 
