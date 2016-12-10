@@ -103,14 +103,14 @@
                 <div id="newsletterContainer" class = 'fade planet'>
                     <div id='newsletterForm'>
                         <h1>Sign up for our free newsletter here for literally no reason at all.</h1>
-                        <form>
+                        <form name="Signup" onsubmit="return validation()" method="POST">
                             <p>
-                                Name <br/><input type='text' class='formInput'/><br/>
-                                E-mail Address <br/><input type="email" class='formInput'/><br/>
+                                Name <br/><input type='text' name="uName" class='formInput' required/><br/>
+                                E-mail Address <br/><input type="email" name="uEmail" class='formInput' required/><br/>
                                 <span id='captchafordummies'>To protect ourselves from bots (but not really because this is all client side), please answer this simple question to complete your sign up.<br/>
                                 Which planet do humans come from?</span><br/>
-                                <input type='text' id="captchaInput" class='formInput'/><br/>
-                                <input type='button' class='formInput' onclick=weed() value="Sign Up"/><br/>
+                                <input type='text' id="captchaInput" name="security" class='formInput' required/><br/>
+                                <input type='submit' class='formInput'/><br/>
                             </p>
                         </form>
                     </div>

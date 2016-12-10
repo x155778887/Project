@@ -1,9 +1,11 @@
-var captchaInput = document.getElementById("captchaInput");
-function weed() {
-    if (captchaInput === "Earth") {
-        window.alert("Sign up successful!");
+function validation() {
+    var nameValidation=document.forms["Signup"]["security"].value;
+    if (nameValidation.toUpperCase()==="Earth".toUpperCase()) {
+        alert("Sign up successful!");
+        return true;
     } else {
-        window.alert("You failed the captcha.");
+        alert("Please enter the securiy question correctly.");
+        return false;
     }
 }
 
