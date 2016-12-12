@@ -202,7 +202,7 @@
 				<div class='TextOuterDiv'>
 					<div class='TextInnerDiv'>
 
-						<div class ="Title"> Venus info  </div>
+						<div class ="Title"> Earth info  </div>
 						<div class="Content">
 
 							Earth is the third farthest planet from the sun, its the only planet known to have an atmosphere containing free oxygen, oceans of liquid water on its surface, and life. <br /><br />
@@ -302,33 +302,26 @@
 						<div class ="Title"> Jupiter info  </div>
 						<div class="Content">
 							
-							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
-							I'ts called mercury after the Roman messenger God.
-							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
-							and during the night the temperature plummets to 170 degrees Celsius
-							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							Jupiter is the fifth planet from the sun. It has short days of 10 hours, and completes an orbit in 12 Earth years.
+							It is named Jupiter after the king of ancient Roman gods.
+							Jupiter is a gas giant so it does not have a surface, it is mostly gasses and liquids. Where a core may be could be up to 50,000 degrees Celsius.
+							Jupiter is about 11 times wider than the Earth.
 							<br />
 						</div>
 						
 						<div class="Title"><br /> Significant Information </div>
 						<div class="Content">
 
-							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
-							it left a crater big enough to fit the enitre state of texas.<br /><br />
-							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
-							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
-							Mercury is also the second densest planet due to its huge metalic core.
+							The planet Jupiter formed 4.5 billion years ago when gravity pulled gas and dust to become the gas giant it is. Jupiter has the same ingredients as a star, but did not grow large enough to ignite.<br /><br />
+							A storm called the Great Red Spot has been observed on the planet for more than 300 years. The swirling oval of clouds is twice as wide as Earth.<br /> <br />
+							Jupiter is surrounded by 53 moons. The four largest moons were discovered by Galileo Galilei in 1610, Europa, Callisto, Ganymede and Io.<br /><br />
 							<br />
 						</div>
 
 						<div class="Title"><br /> Current Missions </div>
 						<div class="Content">
 							
-							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
-							I'ts called mercury after the Roman messenger God.
-							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
-							and during the night the temperature plummets to 170 degrees Celsius
-							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							NASA launched Juno on August 5th 2011 to orbit the gas giant. It will determine the quantity of water in Jupiter's atmosphere, map magnetic fields and how they affect the atmosphere. 
 							<br />
 						</div>
 					</div>
@@ -357,33 +350,26 @@
 						<div class ="Title"> Saturn info  </div>
 						<div class="Content">
 							
-							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
-							I'ts called mercury after the Roman messenger God.
-							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
-							and during the night the temperature plummets to 170 degrees Celsius
-							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							Saturn is the sixth planet from the sun, and is the second largest in our solar system.
+							Saturn was the Roman name for Cronus, the lord of the titans in Greek mythology.
+							The average temperature on Saturn is minus 178 degrees Celsius, and a core between 10 and 20 times the size of Earth.
+							Saturn is big enough to hold 760 Earths and is roughly 95 times Earth's mass. It's density is so low that if there was a bathtub big enough to hold it, Saturn could float in the water.
 							<br />
 						</div>
 						
 						<div class="Title"><br /> Significant Information </div>
 						<div class="Content">
 
-							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
-							it left a crater big enough to fit the enitre state of texas.<br /><br />
-							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
-							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
-							Mercury is also the second densest planet due to its huge metalic core.
+						Saturn appears to have a hot solid inner core of iron and an outer core composed of ammonia, methane, and water. The next layer is of liquid metallic hydrogen, followed by viscous hydrogen and helium. They become gaseous and merge with the atmosphere.<br /><br />
+							Galileo Galilei was the first to see Saturn's rings in 1610. The rings are composed of ice and rock. The largest ring spans up to 200 times the diameter of the planet.<br /> <br />
+							Saturn has at least 62 moons. As Saturn is named after the lord of the Titans, the majority of the moons are names after other Titans. The largest moon, Titan, is slightly larger than Mercury.
 							<br />
 						</div>
 
 						<div class="Title"><br /> Current Missions </div>
 						<div class="Content">
 							
-							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
-							I'ts called mercury after the Roman messenger God.
-							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
-							and during the night the temperature plummets to 170 degrees Celsius
-							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							The Cassini spacecraft in orbit around Saturn is the largest interplanetary spacecraft ever built. It discovered plumes on the icy moon Enceladus, and carried the Huygens probe which successfully landed on Titan.
 							<br />
 						</div>
 					</div>
@@ -412,33 +398,27 @@
 						<div class ="Title"> Uranus info  </div>
 						<div class="Content">
 							
-							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
-							I'ts called mercury after the Roman messenger God.
-							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
-							and during the night the temperature plummets to 170 degrees Celsius
-							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							Uranus is the seventh planet from the sun.
+							Uranus is named after the Greek sky deity, Ouranos.
+							The average temperature on the planet is minus 193 degrees Celsius.
+							Uranus is the third largest planet of the solar system. It is four times the diameter of Earth and is 63 times the volume.
 							<br />
 						</div>
 						
 						<div class="Title"><br /> Significant Information </div>
 						<div class="Content">
 
-							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
-							it left a crater big enough to fit the enitre state of texas.<br /><br />
-							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
-							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
-							Mercury is also the second densest planet due to its huge metalic core.
+							The planet was accidentally discovered by William Herschel in 1781, it was believed to be a star prior to this.<br /><br />
+							The rings of Uranus were the first to be seen after Saturn's. This helped astronomers understand that rings were not just a peculiarity of Saturn. There are two sets of rings, and 13 rings have been identified.<br /> <br />
+							Uranus has 27 moons, named after works of Shakespeare and Pope. Oberon and Titania are the largest of Uranus's moons.<br /><br />
+							The composition of Uranus is thought to be about 25% rock, 60 to 70% ice, and 5 to 15% hydrogen and helium.
 							<br />
 						</div>
 
 						<div class="Title"><br /> Current Missions </div>
 						<div class="Content">
 							
-							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
-							I'ts called mercury after the Roman messenger God.
-							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
-							and during the night the temperature plummets to 170 degrees Celsius
-							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							The first and only NASA spacecraft to visit Uranus was NASA's Voyager 2. It discovered 10 moons and investigated its unusually tilted magnetic field.
 							<br />
 						</div>
 					</div>
@@ -466,33 +446,26 @@
 						<div class ="Title"> Neptune info  </div>
 						<div class="Content">
 							
-							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
-							I'ts called mercury after the Roman messenger God.
-							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
-							and during the night the temperature plummets to 170 degrees Celsius
-							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							Neptune is the eighth planet from the sun. It was predicted to exist by mathematical calculations before it was discovered.
+							It's named after the Roman god of the sea.
+							The average temperature of the planet is minus 200 degrees Celsius.
+							The diameter of Neptune is four times that of Earths, and is 17 times heavier than it.
 							<br />
 						</div>
 						
 						<div class="Title"><br /> Significant Information </div>
 						<div class="Content">
 
-							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
-							it left a crater big enough to fit the enitre state of texas.<br /><br />
-							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
-							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
-							Mercury is also the second densest planet due to its huge metalic core.
+							Despite its great distance from the sun, Neptune's winds are the fastest detected in the solar system at 1,500 mph.<br /><br />
+							Neptune's rings are not uniform and possess bring thick clumps of dust called arcs. They are unstable and dwindle away rapidly.<br /> <br />
+							Neptune has 14 known moons, named after lesser sea gods of Greek mythology. The largest of which is Triton, which has a retrograde obit.<br /><br />
 							<br />
 						</div>
 
 						<div class="Title"><br /> Current Missions </div>
 						<div class="Content">
 							
-							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
-							I'ts called mercury after the Roman messenger God.
-							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
-							and during the night the temperature plummets to 170 degrees Celsius
-							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							NASA's Voyager 2 satellite was the first and as yet only spacecraft to visit Neptune.
 							<br />
 						</div>
 					</div>
