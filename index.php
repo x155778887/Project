@@ -32,6 +32,7 @@
 	<div id="container">
 		<div id="mySidenav" class="sidenav">
 			<button class="closebtn" onclick="navBar()">&times;</button>
+			<button onclick=fadeClick('#newsletterContainer') class='planetButton'>Newsletter</button>
 			<button onclick=fadeClick('#mercuryContainer') class='planetButton'>Mercury</button>
 			<button onclick=fadeClick('#venusContainer') class='planetButton'>Venus</button>
 			<button onclick=fadeClick('#earthContainer') class='planetButton'>Earth</button>
@@ -40,7 +41,7 @@
 			<button onclick=fadeClick('#saturnContainer') class='planetButton'>Saturn</button>
 			<button onclick=fadeClick('#uranusContainer') class='planetButton'>Uranus</button>
 			<button onclick=fadeClick('#neptuneContainer') class='planetButton'>Neptune</button>
-			<button onclick=fadeClick('#newsletterContainer') class='planetButton'>Newsletter</button>
+			
 		</div>
 
 		<div id="main">
@@ -55,7 +56,7 @@
 
 				<div class="Header">Welcome to Mercury</div>
 
-				<div class="BackgroundMercury">
+				<div class="Background">
 					<img src="img/Mercury.png" alt="Murcury" Width="120%" height="120%" >
 				</div>
 
@@ -118,8 +119,8 @@
 
 				<div class="Header">Welcome to Venus</div>
 
-				<div class="BackgroundVenus">
-					<img src="IMG/Venus.png" alt="Venus" Width="75%" height="75%">
+				<div class="Background">
+					<img src="IMG/Venus.png" alt="Venus" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -174,8 +175,8 @@
 				
 				<div class="Header">Welcome to Earth</div>
 
-				<div class="BackgroundEarth">
-					<img src="IMG/Earth.png" alt="Venus" Width="52%" height="51%">
+				<div class="Background">
+					<img src="IMG/Earth.png" alt="Venus" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -228,8 +229,8 @@
 
 				<div class="Header">Welcome to Mercury</div>
 
-				<div class="BackgroundMars">
-					<img src="img/Mars.jpg" alt="Murcury" Width="47%" height="47%">
+				<div class="Background">
+					<img src="img/Mars.png" alt="Murcury" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -279,8 +280,8 @@
 			<div id="jupiterContainer" class='fade planet' style="background-color:black; ">
 				<div class="Header">Welcome to Jupiter</div>
 
-				<div class="BackgroundJupiter">
-					<img src="img/Jupiter.png" alt="Murcury" Width="78%" height="80%">
+				<div class="Background">
+					<img src="img/Jupiter.png" alt="Murcury" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -334,8 +335,8 @@
 
 				<div class="Header">Welcome to Saturn</div>
 
-				<div class="BackgroundSaturn">
-					<img src="img/Saturn.png" alt="Murcury" Width="103%" height="103%">
+				<div class="Background">
+					<img src="img/Saturn.png" alt="Murcury" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -389,8 +390,8 @@
 
 				<div class="Header">Welcome to Uranus</div>
 
-				<div class="BackgroundUranus">
-					<img src="img/Uranus.png" alt="Murcury" Width="90%" height="90%">
+				<div class="Background">
+					<img src="img/Uranus.png" alt="Murcury" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -443,8 +444,8 @@
 
 				<div class="Header">Welcome to Neptune</div>
 
-				<div class="BackgroundNeptune">
-					<img src="img/Neptune.png" alt="Murcury" Width="85%" height="85%">
+				<div class="Background">
+					<img src="img/Neptune.png" alt="Murcury" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
