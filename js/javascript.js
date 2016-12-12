@@ -4,7 +4,7 @@ function validation() {
         alert("Sign up successful!");
         return true;
     } else {
-        alert("Please enter the securiy question correctly.");
+        alert("Please answer the securiy question correctly.");
         return false;
     }
 }

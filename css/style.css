@@ -35,25 +35,35 @@ body {
     font-size:1.1em;
 }
 .planetImage{
+    display: block;
     margin:auto;
     width: 60%;
 }
 #newsletterForm {
     margin: auto;
+    padding-top: 10%;
     width: 80%;
+    color: #e6e6e6;
+    text-align: center;
+}
+#newsletterForm form {
+    margin: auto;
+    width: 100%;
 }
 .formInput{
-    width: 50%;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0 8px;
+    background-color: #595959;
+    color: white;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid #808080;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
 }
 .formInput:focus {
-    border: 2px solid #555;
+    border: 2px solid #333333;
 }
 /* Side Navigator Customization*/
 .sidenav {
