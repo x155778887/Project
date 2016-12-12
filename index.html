@@ -1,137 +1,517 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<link rel="stylesheet" href="css/style.css" />
-	<script src="js/javascript.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<title>forgot ur title m8</title>
-</head>
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/javascript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <title>forgot ur title m8</title>
+    </head>
 
-<body>
-	<div id="container">
-		<div id="mySidenav" class="sidenav">
-			<button class="closebtn" onclick="navBar()">&times;</button>
-			<button onclick=fadeClick('#mercuryContainer') class='planetButton'>Mercury</button>
-			<button onclick=fadeClick('#venusContainer') class='planetButton'>Venus</button>
-			<button onclick=fadeClick('#earthContainer') class='planetButton'>Earth</button>
-			<button onclick=fadeClick('#marsContainer') class='planetButton'>Mars</button>
-			<button onclick=fadeClick('#jupiterContainer') class='planetButton'>Jupiter</button>
-			<button onclick=fadeClick('#saturnContainer') class='planetButton'>Saturn</button>
-			<button onclick=fadeClick('#uranusContainer') class='planetButton'>Uranus</button>
-			<button onclick=fadeClick('#neptuneContainer') class='planetButton'>Neptune</button>
-			<button onclick=fadeClick('#newsletterContainer') class='planetButton'>Newsletter</button>
-		</div>
+    <body>
+        <div id="container">
+            <div id="mySidenav" class="sidenav">
+                <button class="closebtn" onclick="navBar()">&times;</button>
+				<button onclick=fadeClick('#mercuryContainer') class='planetButton'>Mercury</button>
+				<button onclick=fadeClick('#venusContainer') class='planetButton'>Venus</button>
+                <button onclick=fadeClick('#earthContainer') class='planetButton'>Earth</button>
+                <button onclick=fadeClick('#marsContainer') class='planetButton'>Mars</button>
+                <button onclick=fadeClick('#jupiterContainer') class='planetButton'>Jupiter</button>
+                <button onclick=fadeClick('#saturnContainer') class='planetButton'>Saturn</button>
+                <button onclick=fadeClick('#uranusContainer') class='planetButton'>Uranus</button>
+                <button onclick=fadeClick('#neptuneContainer') class='planetButton'>Neptune</button>
+            </div>
 
-		<div id="main">
-			<h2>Space Information Website</h2>
-			<p>Welcome to space info site</p>
-			<span style="font-size:2em;cursor:pointer;font-weight:bold" onclick="navBar()">&#9776; Explore</span>
+            <div id="main">
+				<h2>Space Information Website</h2>
+                <p>Welcome to space info site</p>
+                <span style="font-size:2em;cursor:pointer;font-weight:bold" onclick="navBar()">&#9776; Explore</span>
 
-			<div id="mercuryContainer" class='fade planet'>
-				<div id='mercuryImage' class='planetImage'>
-					<img src="img/mercury.jpg" alt="Mercury">
-				</div>
-				<div id='mercuryText' class='planetText'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
-				</div>
-			</div>
-
-			<div id="venusContainer" class='fade planet'>
-				<div id='venusImage' class='planetImage'>
-					<img src="img/venus.jpg" alt="Venus">
-				</div>
-				<div id='venusText' class='planetText'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
-				</div>
-			</div>
-
-			<div id="earthContainer" class='fade planet'>
-				<div id='earthImage' class='planetImage'>
-					<img src="img/earth.jpg" alt="Earth">
-				</div>
-				<div id='earthText' class='planetText'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
-				</div>
-			</div>
-
-			<div id="marsContainer" class='fade planet'>
-				<div id='marsImage' class='planetImage'>
-					<img src="img/mars.jpg" alt="Mars">
-				</div>
-				<div id='marsText' class='planetText'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
-				</div>
-			</div>
-
-			<div id="jupiterContainer" class='fade planet'>
-				<div id='jupiterImage' class='planetImage'>
-					<img src="img/jupiter.jpg" alt="Jupiter">
-				</div>
-				<div id='jupiterText' class='planetText'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
-				</div>
-			</div>
-
-			<div id="saturnContainer" class='fade planet'>
-				<div id='saturnImage' class='planetImage'>
-					<img src="img/saturn.jpg" alt="Saturn">
-				</div>
-				<div id='saturnText' class='planetText'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
-				</div>
-			</div>
-
-			<div id="uranusContainer" class='fade planet'>
-				<div id='uranusImage' class='planetImage'>
-					<img src="img/uranus.jpg" alt="Uranus">
-				</div>
-				<div id='uranusText' class='planetText'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
-				</div>
-			</div>
-
-			<div id="neptuneContainer" class='fade planet'>
-				<div id='neptuneImage' class='planetImage'>
-					<img src="img/neptune.jpg" alt="Neptune">
-				</div>
-				<div id='neptuneText' class='planetText'>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet libero augue. Nam in dapibus justo. Ut vitae ultrices odio. Morbi quis dignissim ligula. In nec rhoncus tortor. Nullam pretium in ligula eu dapibus. Aliquam ut maximus metus. Vivamus et felis arcu. Etiam est libero, egestas non sapien et, varius dapibus libero. Nunc ultrices aliquam mauris sit amet congue. Suspendisse auctor sapien sit amet sodales luctus. Nullam aliquet dapibus nibh eget consequat. Quisque cursus purus velit, ut laoreet neque convallis vitae. Proin nec auctor sem, a fermentum enim. Nunc suscipit pulvinar ultricies. Vestibulum vitae urna eget ex iaculis ullamcorper. Sed sed tempus orci, et tincidunt enim. Donec convallis finibus risus eget tempus. Ut urna lectus, tempor at pellentesque vel, rutrum nec nisl. In euismod ante a lorem tristique gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae lacus rhoncus, fermentum tortor vestibulum, elementum odio. Aenean malesuada lacinia orci, a euismod augue blandit quis. Suspendisse non est eu nibh volutpat semper. Pellentesque sagittis leo eu urna imperdiet, ac tempus risus fermentum. Ut laoreet eleifend risus vitae vehicula. Mauris et faucibus dui, iaculis egestas nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mattis orci a erat vulputate efficitur. Sed porttitor augue id lobortis dictum. Aenean in tincidunt dolor.</p>
-				</div>
-			</div>
-
-			<div id="newsletterContainer" class = 'fade planet'>
-				<div id='newsletterForm'>
-					<h1>Sign up for our free newsletter here for literally no reason at all.</h1>
-					<form name="Signup" onsubmit="return validation()" method="POST">
-						<p>
-							Name <br/><input type='text' name="uName" class='formInput' required/><br/>
-							E-mail Address <br/><input type="email" name="uEmail" class='formInput' required/><br/>
-							<span id='captchafordummies'>To protect ourselves from bots (but not really because this is all client side), please answer this simple question to complete your sign up.<br/>
-								Which planet do humans come from?</span><br/>
-								<input type='text' id="captchaInput" name="security" class='formInput' required/><br/>
-								<input type='submit' class='formInput'/><br/>
-							</p>
-						</form>
+				
+				
+			<div id="mercuryContainer" class='fade planet' style="background-color:black;">
+					
+					
+					<div class="Header">Welcome to Mercury</div>
+						
+					<div class="BackgroundMercury">
+						<img src="img/Mercury.png" alt="Murcury" Width="120%" height="120%" >
 					</div>
+				  
+			<div class='TextOuterDiv'>
+				<div class='TextInnerDiv'>
+      
+					<div class ="Title"> Mercury Info  </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+						
+					<div class="Title"><br /> Significant Information </div>
+						<div class="Content">
+						
+							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
+							it left a crater big enough to fit the enitre state of texas.<br /><br />
+							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
+							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
+							Mercury is also the second densest planet due to its huge metalic core.
+							<br />
+						</div>
+					
+					<div class="Title"><br /> Current Missions </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
 				</div>
+			</div>  
+        
+					<div class="VideoOuter">
+						<div class="VideoInner">
+							<video id="myVidMercury"  width="100%" height="100%" controls> <source src="vid/mercury.mp4" type="video/mp4">
+							</video>
+							
+							<script>
+							var myVideo=document.getElementById("myVidMercury"); 
+							function pauseVid() {
+							if (myVideo.play) {
+								myVideo.pause(); 
+								}
+							}
+							</script>
 
-				<div id="todo">
-					<h1>~Things left to do~</h1>
-					<ul>
-						<li>Add proper title.</li>
-						<li><s>reimplement all buttons with jquery instead to use fade in/out and toggling.</s></li>
-						<li>Form submission(newsletter signup).</li>
-						<li><s>Dim background image when hidden div opened.</s></li>
-						<li><s>Fix buttons clicking on one, clicking on another and then clicking on the first button causes div to disappear. (e.g. click on Mercury, then Venus, and then Mercury again.)</s></li>
-						<li>Content for each planet (use videos, proper renders with backgrounds removed, consistent size etc).</li>
-						<li><h1>Never, ever, ever use inline styling or scripting ever again (it's messy as hell and hard to work on).</h1></li>
-						<li>Paste all your work through <a href='http://jsbeautifier.org/'>this</a> before submitting it. (Except CSS, it breaks that.)</li>
-					</ul>
-				</div>
-			</div>
-
+						</div>
+					</div>
+		
 		</div>
-	</body>
 
-	</html>
+			<div id="venusContainer" class='fade planet' style="background-color:black;">
+                   
+				   
+			<div class="Header">Welcome to Venus</div>
+						
+				<div class="BackgroundVenus">
+					<img src="IMG/Venus.png" alt="Venus" Width="75%" height="75%">
+				</div>
+				  
+				<div class='TextOuterDiv'>
+					<div class='TextInnerDiv'>
+      
+						<div class ="Title"> Venus info  </div>
+							<div class="Content">
+							
+								Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+								I'ts called mercury after the Roman messenger God.
+								The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+								and during the night the temperature plummets to 170 degrees Celsius
+								Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+								<br />
+							</div>
+						
+						<div class="Title"><br /> Venus Information </div>
+							<div class="Content">
+						
+								4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
+								it left a crater big enough to fit the enitre state of texas.<br /><br />
+								Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
+								Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
+								Mercury is also the second densest planet due to its huge metalic core.
+								<br />
+							</div>
+						
+						<div class="Title"><br /> Current Missions </div>
+							<div class="Content">
+								
+								Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+								I'ts called mercury after the Roman messenger God.
+								The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+								and during the night the temperature plummets to 170 degrees Celsius
+								Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+								<br />
+							</div>
+					</div>
+				</div>  
+        
+					<div class="VideoOuter">
+						<div class="VideoInner">
+							<video  width="100%" height="100%" controls> <source src="vid/venus.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				   
+                </div>
+
+			<div id="earthContainer" class='fade planet' style="background-color:black; ">
+                   
+				
+					<div class="Header">Welcome to Earth</div>
+								
+						<div class="BackgroundEarth">
+							<img src="IMG/Earth.png" alt="Venus" Width="52%" height="51%">
+						</div>
+						  
+					<div class='TextOuterDiv'>
+							<div class='TextInnerDiv'>
+			  
+								<div class ="Title"> Venus info  </div>
+									<div class="Content">
+									
+										Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+										I'ts called mercury after the Roman messenger God.
+										The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+										and during the night the temperature plummets to 170 degrees Celsius
+										Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+										<br />
+									</div>
+								
+								<div class="Title"><br /> Venus Information </div>
+									<div class="Content">
+								
+										4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
+										it left a crater big enough to fit the enitre state of texas.<br /><br />
+										Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
+										Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
+										Mercury is also the second densest planet due to its huge metalic core.
+										<br />
+									</div>
+								
+								<div class="Title"><br /> Current Missions </div>
+									<div class="Content">
+										
+										Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+										I'ts called mercury after the Roman messenger God.
+										The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+										and during the night the temperature plummets to 170 degrees Celsius
+										Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+										<br />
+									</div>
+								</div>
+						  </div>
+								<div class="VideoOuter">
+								<div class="VideoInner">
+							<video  width="100%" height="100%" controls> <source src="vid/earth.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				   
+                </div>
+				  
+			<div id="marsContainer" class='fade planet' style="background-color:black; ">
+                    
+					<div class="Header">Welcome to Mercury</div>
+						
+					<div class="BackgroundMars">
+						<img src="img/Mars.jpg" alt="Murcury" Width="47%" height="47%">
+					</div>
+				  
+			<div class='TextOuterDiv'>
+				<div class='TextInnerDiv'>
+      
+					<div class ="Title"> Mars info  </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+						
+					<div class="Title"><br /> Significant Information </div>
+						<div class="Content">
+						
+							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
+							it left a crater big enough to fit the enitre state of texas.<br /><br />
+							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
+							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
+							Mercury is also the second densest planet due to its huge metalic core.
+							<br />
+						</div>
+					
+					<div class="Title"><br /> Current Missions </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+				</div>
+			</div>  
+        
+					<div class="VideoOuter">
+						<div class="VideoInner">
+							<video  width="100%" height="100%" controls> <source src="vid/mars.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					
+                </div>
+
+			<div id="jupiterContainer" class='fade planet' style="background-color:black; ">
+                    
+					
+					
+					<div class="Header">Welcome to Jupiter</div>
+						
+					<div class="BackgroundJupiter">
+						<img src="img/Jupiter.png" alt="Murcury" Width="78%" height="80%">
+					</div>
+				  
+			<div class='TextOuterDiv'>
+				<div class='TextInnerDiv'>
+      
+					<div class ="Title"> Jupiter info  </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+						
+					<div class="Title"><br /> Significant Information </div>
+						<div class="Content">
+						
+							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
+							it left a crater big enough to fit the enitre state of texas.<br /><br />
+							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
+							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
+							Mercury is also the second densest planet due to its huge metalic core.
+							<br />
+						</div>
+					
+					<div class="Title"><br /> Current Missions </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+				</div>
+			</div>  
+        
+					<div class="VideoOuter">
+						<div class="VideoInner">
+							<video  width="100%" height="100%" controls> <source src="vid/jupiter.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+                </div>
+
+			<div id="saturnContainer" class='fade planet' style="background-color:black; ">
+                    
+					
+					<div class="Header">Welcome to Saturn</div>
+						
+					<div class="BackgroundSaturn">
+						<img src="img/Saturn.png" alt="Murcury" Width="103%" height="103%">
+					</div>
+				  
+			<div class='TextOuterDiv'>
+				<div class='TextInnerDiv'>
+      
+					<div class ="Title"> Saturn info  </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+						
+					<div class="Title"><br /> Significant Information </div>
+						<div class="Content">
+						
+							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
+							it left a crater big enough to fit the enitre state of texas.<br /><br />
+							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
+							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
+							Mercury is also the second densest planet due to its huge metalic core.
+							<br />
+						</div>
+					
+					<div class="Title"><br /> Current Missions </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+				</div>
+			 </div>
+        
+					<div class="VideoOuter">
+						<div class="VideoInner">
+							<video  width="100%" height="100%" controls> <source src="vid/saturn.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div> 
+		
+			<div id="uranusContainer" class='fade planet' style="background-color:black; ">
+                    
+					
+					<div class="Header">Welcome to Uranus</div>
+						
+					<div class="BackgroundUranus">
+						<img src="img/Uranus.png" alt="Murcury" Width="90%" height="90%">
+					</div>
+				  
+			<div class='TextOuterDiv'>
+				<div class='TextInnerDiv'>
+      
+					<div class ="Title"> Uranus info  </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+						
+					<div class="Title"><br /> Significant Information </div>
+						<div class="Content">
+						
+							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
+							it left a crater big enough to fit the enitre state of texas.<br /><br />
+							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
+							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
+							Mercury is also the second densest planet due to its huge metalic core.
+							<br />
+						</div>
+					
+					<div class="Title"><br /> Current Missions </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+				</div>
+			 </div>
+        
+					<div class="VideoOuter">
+						<div class="VideoInner">
+							<video  width="100%" height="100%" controls> <source src="vid/uranus.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+                </div>
+
+			<div id="neptuneContainer" class='fade planet' style="background-color:black; ">
+                   
+				   <div class="Header">Welcome to Neptune</div>
+						
+					<div class="BackgroundNeptune">
+						<img src="img/Neptune.png" alt="Murcury" Width="85%" height="85%">
+					</div>
+				  
+			<div class='TextOuterDiv'>
+				<div class='TextInnerDiv'>
+      
+					<div class ="Title"> Neptune info  </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+						
+					<div class="Title"><br /> Significant Information </div>
+						<div class="Content">
+						
+							4 billion years ago, mercury was hit by an asteroid roughly 100km wide, the impact was that equal to 1 trillion 1-megaton bombs,
+							it left a crater big enough to fit the enitre state of texas.<br /><br />
+							Even tough the planet is so close to the sun, in 2012, The MESSENGER spacecraft discoverd water ice in one of the craters near its north pole.<br /> <br />
+							Mercury is consitnly shrinking as the planet is made up of a single conitinental plate over a cooling iron core. as the core cools and solidifies, the planets volume shrinks<br /><br />
+							Mercury is also the second densest planet due to its huge metalic core.
+							<br />
+						</div>
+					
+					<div class="Title"><br /> Current Missions </div>
+						<div class="Content">
+							
+							Mercry is the closest planet to the sun and in turn, circles the the sun faster than any other planet.
+							I'ts called mercury after the Roman messenger God.
+							The planets surface can reach up to 450 degrees Celsius, however, it has no atmosphere to trap any heat 
+							and during the night the temperature plummets to 170 degrees Celsius
+							Mercury is the smallest planet in our solar system, as well as being slightly bigger than earths moon
+							<br />
+						</div>
+				</div>
+			 </div>
+        
+					<div class="VideoOuter">
+						<div class="VideoInner">
+							<video  width="100%" height="100%" controls> <source src="vid/neptune.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+                </div>
+
+               
+			   <div id="todo">
+                    <h1>~Things left to do~</h1>
+                    <ul>
+                        <li>Add proper title.</li>
+                        <li><s>reimplement all buttons with jquery instead to use fade in/out and toggling.</s></li>
+                        <li>Form submission(newsletter signup).</li>
+                        <li><s>Dim background image when hidden div opened.</s></li>
+                        <li><s>Fix buttons clicking on one, clicking on another and then clicking on the first button causes div to disappear. (e.g. click on Mercury, then Venus, and then Mercury again.)</s></li>
+                        <li>Content for each planet (use videos, proper renders with backgrounds removed, consistent size etc).</li>
+                        <li><h1>Never, ever, ever use inline styling or scripting ever again (it's messy as hell and hard to work on).</h1></li>
+                        <li>Paste all your work through <a href='http://jsbeautifier.org/'>this</a> before submitting it. (Except CSS, it breaks that.)</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>
