@@ -10,23 +10,43 @@
 
 <body>
 	<?php
-	// define variables and set to empty values
-	$name = $email = $gender = $comment = $website = $nameErr = "";
-
-	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$uName = test_input($_POST["uName"]);
-		$uEmail = test_input($_POST["uEmail"]);
-		$security = test_input($_POST["security"]);
-	}
 	function test_input($data) {
 		$data = trim($data);
 		$data = stripslashes($data);
 		$data = htmlspecialchars($data);
 		return $data;
 	}
-	$uName = test_input($_POST["uName"]);
-	if (!preg_match("/^[a-zA-Z ]*$/",$uName)) {
-		$nameErr = "Only letters and white space allowed"; 
+// define variables and set to empty values
+	$nameErr = $emailErr = $securityErr = "";
+	$name = $email = $security = "";
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		if (empty($_POST["uName"])) {
+			$nameErr = "Name is required";
+		} else {
+			$name = test_input($_POST["uName"]);
+    // check if name only contains letters
+			if (!preg_match("/^[a-zA-Z]*$/",$name)) {
+				$nameErr = "Only letters allowed (no whitespace)"; 
+			}
+		}
+		if (empty($_POST["uEmail"])) {
+			$emailErr = "Email is required";
+		} else {
+			$email = test_input($_POST["uEmail"]);
+    // check if e-mail address is well-formed
+			if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+				$emailErr = "Invalid email format"; 
+			}
+		}
+		if (empty($_POST["security"])) {
+			$securityErr = "Security question is required";
+		} else {
+			$security = strtoupper(test_input($_POST["security"]));
+	// checking if question was answered correctly
+			if($security != "EARTH") {
+				$securityErr = "Please answer the security question correctly";
+			}
+		}
 	}
 	?>
 	<div id="container">
@@ -497,15 +517,20 @@
 		<div id="newsletterContainer" class = 'fade planet'>
 			<div id='newsletterForm'>
 				<h1>Sign up for our free newsletter here for literally no reason at all.</h1>
-				<form name='signup' onclick=validation() method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
+				<form name='signup' method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
 					<p>
-						Name <br/><input type='text' name="uName" class='formInput' required/><br/>
-						E-mail Address <br/><input type="email" name="uEmail" class='formInput' required/><br/>
-						<span id='captchafordummies'>To protect ourselves from bots (but not really because this is all client side), please answer this simple question to complete your sign up.<br/>
-							Which planet do humans come from?</span><br/>
-							<input type='text' id="captchaInput" name="security" class='formInput' required/><br/>
-							<input type='submit' class='formInput'/><br/>
-						</p>
+						Name <br/>
+						<input type='text' name="uName" class='formInput' value="<?php echo $name;?>" required/><br/>
+						<p><span class="error"><?php echo $nameErr;?></span></p><br/>
+						E-mail Address <br/>
+						<input type="email" name="uEmail" class='formInput' value="<?php echo $email;?>" required/><br/>
+						<p><span class="error"><?php echo $emailErr;?></span></p><br/>
+						<span id='captchafordummies'>To protect ourselves from spam bots, please answer this simple question to complete your sign up.<br/>
+						From which planet do humans come from?</span><br/>
+						<input type='text' id="captchaInput" name="security" class='formInput'" required/><br/>
+						<p><span class="error"><?php echo $securityErr;?></span></p><br/>
+						<input type='submit' class='formInput' onclick=validation()/><br/>
+					</p>
 					</form>
 				</div>
 			</div>
