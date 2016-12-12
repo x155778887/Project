@@ -14,6 +14,140 @@ body {
     background:url(../img/dim.png);
     height: 100%;
 }
+
+
+/*   Content Css stuff     */
+
+
+
+/*    Backgrounds for the Planets   */                                       
+.BackgroundMercury{
+	position:absolute;
+	right:45%;
+	top:10%;
+
+}
+.BackgroundVenus{
+	position:absolute;
+	bottom:1%;
+	left:8%;
+}
+.BackgroundEarth{
+	position:absolute;
+	left:8%;
+	top:1%;
+	
+}
+
+.BackgroundMars{
+	position:absolute;
+	left:11%;
+	top:6%;
+}
+
+
+.BackgroundJupiter{
+	position:absolute;
+	left:-6%;
+	top:5%;
+}
+
+.BackgroundSaturn{
+	position:absolute;
+	left:-20%;
+	top: -7%;
+}
+
+.BackgroundUranus{
+	position:absolute;
+	right:30%;
+	top:4%;
+}
+
+.BackgroundNeptune{
+	position:absolute;
+	right:45%;
+	top:15%;
+}
+
+/*    Backgrounds for the Planets   */   
+
+
+
+
+
+.Header{
+  position: absolute;
+  color:#bf280d;
+  font-size: 3em;
+  font-style: normal;
+  font-weight: 400;
+  right: 13.5%;
+  top:4%;
+}
+
+
+.Title{
+  color: #f58470;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 400;
+  text-align:center;
+  
+  
+}
+
+.Content{
+  font-size: 1.2em;
+  color:#F7F3E8;  
+  font-style: normal;
+  font-weight: 300;
+  opacity: 1;
+   transition: opacity .10s ease-in-out;
+   -moz-transition: opacity .10s ease-in-out;
+   -webkit-transition: opacity .10s ease-in-out;
+}
+
+.TextOuterDiv {
+  position:absolute;
+  background-color:black;
+  height: 40%;
+  width: 40%;
+  top: 10%;
+  right: 6%;
+  overflow:hidden;
+  text-align:justify;
+  background-color:transparent;
+  padding: 1%;
+  padding-top:0%;
+  padding-left:0%;
+  padding-right:0%;
+}
+
+.TextOuterDiv .TextInnerDiv {
+  height:100%;
+  overflow:auto;
+  margin:15px -300px 15px 15px;
+  padding-right:300px;
+  
+  
+}
+
+.VideoInner{
+  position:absolute;
+  background-color:black;
+  top: 55%;
+  right: 5.5%;
+  background-color:transparent;
+  height:40%;
+  width:40%;  
+}
+
+/* Content CSS stuff   */
+
+
+
+
 .planet{
     display: none;
     background:url(../img/dimmer.png);
@@ -35,35 +169,8 @@ body {
     font-size:1.1em;
 }
 .planetImage{
-    display: block;
     margin:auto;
     width: 60%;
-}
-#newsletterForm {
-    margin: auto;
-    padding-top: 10%;
-    width: 80%;
-    color: #e6e6e6;
-    text-align: center;
-}
-#newsletterForm form {
-    margin: auto;
-    width: 100%;
-}
-.formInput{
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0 8px;
-    background-color: #595959;
-    color: white;
-    box-sizing: border-box;
-    border: 2px solid #808080;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
-.formInput:focus {
-    border: 2px solid #333333;
 }
 /* Side Navigator Customization*/
 .sidenav {
@@ -81,7 +188,7 @@ body {
 .planetButton{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: #818181;
     display: block;
     transition: 0.3s;
