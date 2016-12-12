@@ -77,7 +77,7 @@
 				<div class="Header">Welcome to Mercury</div>
 
 				<div class="Background">
-					<img src="img/Mercury.png" alt="Murcury" Width="120%" height="120%" >
+					<img src="img/Mercury.png" alt="Mercury Image" Width="120%" height="120%" >
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -117,8 +117,7 @@
 
 				<div class="VideoOuter">
 					<div class="VideoInner">
-						<video id="myVidMercury"  width="100%" height="100%" controls> <source src="vid/mercury.mp4" type="video/mp4">
-						</video>
+					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/bX4riPijwWc" frameborder="0" allowfullscreen></iframe>
 
 						<script>
 							var myVideo=document.getElementById("myVidMercury"); 
@@ -183,8 +182,7 @@
 
 				<div class="VideoOuter">
 					<div class="VideoInner">
-						<video  width="100%" height="100%" controls> <source src="vid/venus.mp4" type="video/mp4">
-						</video>
+					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/14gsV5fkhFU" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 
@@ -232,8 +230,7 @@
 				
 				<div class="VideoOuter">
 					<div class="VideoInner">
-						<video  width="100%" height="100%" controls> <source src="vid/earth.mp4" type="video/mp4">
-						</video>
+					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/z4wJnAR1yOk" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 
@@ -244,7 +241,7 @@
 				<div class="Header">Welcome to Mercury</div>
 
 				<div class="Background">
-					<img src="img/Mars.png" alt="Murcury" Width="120%" height="120%">
+					<img src="img/Mars.png" alt="Mars Image" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -282,8 +279,8 @@
 				</div>  
 				<div class="VideoOuter">
 					<div class="VideoInner">
-						<video  width="100%" height="100%" controls> <source src="vid/mars.mp4" type="video/mp4">
-						</video>
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Prj5uxZOd2s" frameborder="0" allowfullscreen></iframe>
+						
 					</div>
 				</div>
 
@@ -293,7 +290,7 @@
 				<div class="Header">Welcome to Jupiter</div>
 
 				<div class="Background">
-					<img src="img/Jupiter.png" alt="Murcury" Width="120%" height="120%">
+					<img src="img/Jupiter.png" alt="Jupiter Image" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -329,8 +326,8 @@
 
 				<div class="VideoOuter">
 					<div class="VideoInner">
-						<video  width="100%" height="100%" controls> <source src="vid/jupiter.mp4" type="video/mp4">
-						</video>
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/BZnDB5VJiT8" frameborder="0" allowfullscreen></iframe>
+
 					</div>
 				</div>
 			</div>
@@ -341,7 +338,7 @@
 				<div class="Header">Welcome to Saturn</div>
 
 				<div class="Background">
-					<img src="img/Saturn.png" alt="Murcury" Width="120%" height="120%">
+					<img src="img/Saturn.png" alt="Saturn Image" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -377,8 +374,8 @@
 
 				<div class="VideoOuter">
 					<div class="VideoInner">
-						<video  width="100%" height="100%" controls> <source src="vid/saturn.mp4" type="video/mp4">
-						</video>
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KDX1likfogQ" frameborder="0" allowfullscreen></iframe>
+
 					</div>
 				</div>
 			</div> 
@@ -389,7 +386,7 @@
 				<div class="Header">Welcome to Uranus</div>
 
 				<div class="Background">
-					<img src="img/Uranus.png" alt="Murcury" Width="120%" height="120%">
+					<img src="img/Uranus.png" alt="Uranus Image" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -426,8 +423,8 @@
 
 				<div class="VideoOuter">
 					<div class="VideoInner">
-						<video  width="100%" height="100%" controls> <source src="vid/uranus.mp4" type="video/mp4">
-						</video>
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/9pFs5PmIsLg" frameborder="0" allowfullscreen></iframe>
+						
 					</div>
 				</div>
 			</div>
@@ -437,7 +434,7 @@
 				<div class="Header">Welcome to Neptune</div>
 
 				<div class="Background">
-					<img src="img/Neptune.png" alt="Murcury" Width="120%" height="120%">
+					<img src="img/Neptune.png" alt="Neptune Image" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -473,8 +470,7 @@
 
 				<div class="VideoOuter">
 					<div class="VideoInner">
-						<video  width="100%" height="100%" controls> <source src="vid/neptune.mp4" type="video/mp4">
-						</video>
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7wm8Uinm5OM" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
