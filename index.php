@@ -77,7 +77,7 @@
 				<div class="Header">Welcome to Mercury</div>
 
 				<div class="Background">
-					<img src="img/Mercury.png" alt="Mercury Image" Width="120%" height="120%" >
+					<img src="img/Mercury.png" alt="Mercury Image" Width="75%" height="75%" >
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -120,15 +120,6 @@
 					<video width="100%" height="100%" controls>
 						<source src="vid/mercury.mp4" type="video/mp4">
 
-						<script>
-							var myVideo=document.getElementById("myVidMercury"); 
-							function pauseVid() {
-								if (myVideo.play) {
-									myVideo.pause(); 
-								}
-							}
-						</script>
-
 					</div>
 				</div>
 
@@ -140,7 +131,7 @@
 				<div class="Header">Welcome to Venus</div>
 
 				<div class="Background">
-					<img src="img/Venus.png" alt="Venus" Width="120%" height="120%">
+					<img src="img/Venus.png" alt="Venus" Width="75%" height="75%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -196,7 +187,7 @@
 				<div class="Header">Welcome to Earth</div>
 
 				<div class="Background">
-					<img src="img/Earth.png" alt="Venus" Width="120%" height="120%">
+					<img src="img/Earth.png" alt="Venus" Width="75%" height="75%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -244,7 +235,7 @@
 				<div class="Header">Welcome to Mercury</div>
 
 				<div class="Background">
-					<img src="img/Mars.png" alt="Mars Image" Width="120%" height="120%">
+					<img src="img/Mars.png" alt="Mars Image" Width="75%" height="75%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -294,7 +285,7 @@
 				<div class="Header">Welcome to Jupiter</div>
 
 				<div class="Background">
-					<img src="img/Jupiter.png" alt="Jupiter Image" Width="120%" height="120%">
+					<img src="img/Jupiter.png" alt="Jupiter Image" Width="75%" height="75%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -342,8 +333,8 @@
 
 				<div class="Header">Welcome to Saturn</div>
 
-				<div class="Background">
-					<img src="img/Saturn.png" alt="Saturn Image" Width="120%" height="120%">
+				<div class="Saturn">
+					<img src="img/Saturn.png" alt="Saturn Image" Width="75%" height="75%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -392,7 +383,7 @@
 				<div class="Header">Welcome to Uranus</div>
 
 				<div class="Background">
-					<img src="img/Uranus.png" alt="Uranus Image" Width="120%" height="120%">
+					<img src="img/Uranus.png" alt="Uranus Image" Width="75%" height="75%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -441,7 +432,7 @@
 				<div class="Header">Welcome to Neptune</div>
 
 				<div class="Background">
-					<img src="img/Neptune.png" alt="Neptune Image" Width="120%" height="120%">
+					<img src="img/Neptune.png" alt="Neptune Image" Width="75%" height="75%">
 				</div>
 
 				<div class='TextOuterDiv'>
