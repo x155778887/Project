@@ -171,7 +171,7 @@ if (file_exists('email.xml')) {
 				<div class="Header">Welcome to Venus</div>
 
 				<div class="Background">
-					<img src="IMG/Venus.png" alt="Venus" Width="120%" height="120%">
+					<img src="img/Venus.png" alt="Venus" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
@@ -226,7 +226,7 @@ if (file_exists('email.xml')) {
 				<div class="Header">Welcome to Earth</div>
 
 				<div class="Background">
-					<img src="IMG/Earth.png" alt="Venus" Width="120%" height="120%">
+					<img src="img/Earth.png" alt="Venus" Width="120%" height="120%">
 				</div>
 
 				<div class='TextOuterDiv'>
